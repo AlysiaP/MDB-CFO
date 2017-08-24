@@ -1,0 +1,243 @@
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid.headCFOCIO {
+	width: 50%;
+	float: left;
+	clear: both;
+}
+.container-fluid.CFO {
+	width: 100%;
+	margin-top: 0px;
+}
+.container-fluid.CIO {
+	height: 150px;
+	width: 400px;
+	clear: both;
+	padding-top: 15px;
+	margin-left: 55px;
+}
+.deco.jeffery {
+	box-shadow: 0 12px 24px rgba(0,0,0,0.22), 0 8px 8px rgba(0,0,0,0.19);
+}
+.deco.jeffery {
+	width: 150px;
+	height: 150px;
+	background: url("../_files/pictures/user-circle.png");
+    background-size: 155px 155px;
+	background-position: center;
+	border-radius: 50%;
+	float: left;
+	border: 3px solid orange;
+	margin-right: 10px;
+}
+.OIT_jefferyTitle {
+	font-weight: bolder;
+	font-size: 20px;
+	text-align: left;
+}
+.jefferyContent p {
+        font-size: 15px;
+    }
+    .jefferyContent {
+        margin: 20px 30px;
+        line-height: 25px;
+    }
+@media (min-width: 1440px) {
+	.carousel-control.left, .carousel-control.right {
+		margin-top: 305px;
+	}
+}
+@media (max-width: 1441px) and (min-width: 1025px) {
+	.carousel-control.left, .carousel-control.right {
+		margin-top: 290px;
+	}
+	.kellyContent, .jefferyContent {
+		margin: 20px 10px;
+	}
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+	.carousel-control.left,.carousel-control.right {
+		margin-top: 295px;
+	}
+	div.container-fluid.CFO, div.container-fluid.CIO {
+		margin-left: 20px;
+	}
+	div.container-fluid.CFO {
+		padding-left: 0px;
+	}
+	h3.BA_kellyTitle {
+		font-size: 28px;
+	}
+	.deco.kelly, .deco.jeffery {
+		height: 165px;
+		width: 165px;
+	}
+	.kellyContent, .jefferyContent {
+		margin: 10px 5px;
+	}
+	div.jefferyContent p {
+		font-size: 15px;
+	}
+}
+@media (max-width: 768px) and (min-width: 572px) {
+	#main {
+     width: 450px !important;   
+	}
+    .container-fluid.headCFOCIO {
+		width: auto;
+		float: none;
+		clear: none;
+	}
+	.container-fluid.CFO {
+		width: 100%;
+		margin-bottom: 0px;
+		margin-left: 20px;
+	}
+	.container-fluid.CIO {
+		height: 150px;
+		clear: both;
+		margin-bottom: 20px;
+		margin-left: 20px;
+	}
+    .jefferyContent {
+        margin: 20px 3px;
+    }
+	.deco.kelly, .deco.jeffery {
+		height: 165px;
+		width: 165px;
+	}
+	.departmentBranches {
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 25px;
+	}
+	.departmentSelection {
+		width: auto;
+	}
+	.btn.departmentSelection.waves-effect.waves-light {
+		width: 50%;
+		margin-left: 24%;
+	}
+
+	.carousel-control.left, .carousel-control.right {
+		margin-top: 210px;
+	}
+}
+@media (max-width: 572px) and (min-width: 425px) {
+	#main {
+		width: 400px !important;
+	}
+	.container-fluid.headCFOCIO {
+		margin-bottom: 25px;
+		width: 100%;
+	}
+	.container-fluid.CFO {
+		width: 95%;
+		margin-bottom: 0px;
+	}
+	.container-fluid.CIO {
+		margin-bottom: 30px;
+		margin-left: 0px;
+		width: auto;
+	}
+	.VP-CFO_header {
+		margin-left: 35px;
+		margin-top: 15px;
+	}
+	.jefferyContent {
+		margin-left: 5px;
+	}
+	.carousel-control.left, .carousel-control.right {
+		margin-top: 810px;
+	}
+}
+@media (max-width: 425px) and (min-width: 375px) {
+	h1.businessAffairs_org {
+		font-size: 23px;
+	}
+	.container-fluid.headCFOCIO {
+		width: 100%;
+	}
+	.container-fluid.CIO {
+		margin-bottom: 30px;
+		margin-left: 0px;
+	}
+	.VP-CFO_header {
+		margin-left: 25px;
+	}
+	.deco.jeffery {
+		width: 130px;
+		height: 130px;
+	}
+	.jefferyContent {
+		margin: 20px 0px 0px 10px;
+	}
+	.jefferyContent p {
+		font-size: 15px;
+	}
+	.carousel-control.left, .carousel-control.right {
+		margin-top: 773px;
+	}
+}
+@media (max-width: 375px) and (min-width: 320px) {
+	.container-fluid.headCFOCIO {
+		width: 100%;
+	}
+	.container-fluid.CFO {
+		margin-left: 9%;
+		width: auto;
+	}
+	.container-fluid.CIO {
+		margin-bottom: 30px;
+		margin-left: 0px;
+		width: auto;
+	}
+	.VP-CFO_header {
+		margin-left: 10%;
+	}
+	.jefferyContent {
+		margin-left: 5px;
+	}
+	.deco.jeffery {
+		width: 100px;
+		height: 100px;
+		margin-right: 5px;
+	}
+	.jefferyContent {
+		margin: 5px 0px 0px 10px;
+	}
+	.jefferyContent p {
+		font-size: 15px;
+	}
+	.branch.employees {
+		margin-left: 20px;
+	}
+	.carousel-control.left, .carousel-control.right {
+		margin-top: 580px;
+	}
+}
+@media (max-width: 320px) {
+	.businessAffairs_org {
+		font-size: 18px;
+	}
+	.container-fluid.CFO {
+		margin-left: 6%;
+	}
+	.VP-CFO_header {
+		margin-left: 15px;
+	}
+	.deco.jeffery {
+		margin-right: 0px;
+	}
+	.jefferyContent p {
+		font-size: 15px;
+	}
+	.jefferyContent {
+		margin: 5px 0px 0px 10px;
+	}
+	.carousel-control.left, .carousel-control.right {
+		margin-top: 557px;
+	}
+}
